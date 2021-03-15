@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102BF77D25FF822B003CBC73 /* ActantORBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102BF77C25FF822B003CBC73 /* ActantORBApp.swift */; };
+		102BF77F25FF822B003CBC73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102BF77E25FF822B003CBC73 /* ContentView.swift */; };
+		102BF78125FF822E003CBC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102BF78025FF822E003CBC73 /* Assets.xcassets */; };
+		102BF78425FF822E003CBC73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102BF78325FF822E003CBC73 /* Preview Assets.xcassets */; };
+		102BF79F25FF8DD7003CBC73 /* LibORBWrapperOriginal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 102BF79525FF8DD7003CBC73 /* LibORBWrapperOriginal.mm */; };
+		102BF7A025FF8DD7003CBC73 /* liborb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102BF79625FF8DD7003CBC73 /* liborb.cpp */; };
+		102BF7A125FF8DD7003CBC73 /* ORBextractor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 102BF79725FF8DD7003CBC73 /* ORBextractor.cc */; };
+		102BF7A225FF8DD7003CBC73 /* ORBextractorOriginal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 102BF79925FF8DD7003CBC73 /* ORBextractorOriginal.cc */; };
+		102BF7A325FF8DD7003CBC73 /* LibORBWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 102BF79B25FF8DD7003CBC73 /* LibORBWrapper.mm */; };
+		102BF7A425FF8DD7003CBC73 /* liborb_original.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102BF79D25FF8DD7003CBC73 /* liborb_original.cpp */; };
+		4F806FA708AE5B7FB0506E96 /* Pods_ActantORB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3309EE8F7B42608329E0A9 /* Pods_ActantORB.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		102BF77925FF822B003CBC73 /* ActantORB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActantORB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102BF77C25FF822B003CBC73 /* ActantORBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActantORBApp.swift; sourceTree = "<group>"; };
+		102BF77E25FF822B003CBC73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		102BF78025FF822E003CBC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		102BF78325FF822E003CBC73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		102BF78525FF822E003CBC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102BF79125FF8DD6003CBC73 /* ActantORB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActantORB-Bridging-Header.h"; sourceTree = "<group>"; };
+		102BF79225FF8DD7003CBC73 /* liborb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liborb.h; sourceTree = "<group>"; };
+		102BF79325FF8DD7003CBC73 /* liborb_original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liborb_original.h; sourceTree = "<group>"; };
+		102BF79425FF8DD7003CBC73 /* ORBextractorOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBextractorOriginal.h; sourceTree = "<group>"; };
+		102BF79525FF8DD7003CBC73 /* LibORBWrapperOriginal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LibORBWrapperOriginal.mm; sourceTree = "<group>"; };
+		102BF79625FF8DD7003CBC73 /* liborb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liborb.cpp; sourceTree = "<group>"; };
+		102BF79725FF8DD7003CBC73 /* ORBextractor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ORBextractor.cc; sourceTree = "<group>"; };
+		102BF79825FF8DD7003CBC73 /* LibORBWrapperOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibORBWrapperOriginal.h; sourceTree = "<group>"; };
+		102BF79925FF8DD7003CBC73 /* ORBextractorOriginal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ORBextractorOriginal.cc; sourceTree = "<group>"; };
+		102BF79B25FF8DD7003CBC73 /* LibORBWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LibORBWrapper.mm; sourceTree = "<group>"; };
+		102BF79C25FF8DD7003CBC73 /* LibORBWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibORBWrapper.h; sourceTree = "<group>"; };
+		102BF79D25FF8DD7003CBC73 /* liborb_original.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liborb_original.cpp; sourceTree = "<group>"; };
+		102BF79E25FF8DD7003CBC73 /* ORBextractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBextractor.h; sourceTree = "<group>"; };
+		387599E85404D6E4AAE18AB6 /* Pods-ActantORB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActantORB.release.xcconfig"; path = "Target Support Files/Pods-ActantORB/Pods-ActantORB.release.xcconfig"; sourceTree = "<group>"; };
+		9D3309EE8F7B42608329E0A9 /* Pods_ActantORB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActantORB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8251E604CDE95F37B9390C /* Pods-ActantORB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActantORB.debug.xcconfig"; path = "Target Support Files/Pods-ActantORB/Pods-ActantORB.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102BF77625FF822B003CBC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F806FA708AE5B7FB0506E96 /* Pods_ActantORB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102BF77025FF822B003CBC73 = {
+			isa = PBXGroup;
+			children = (
+				102BF77B25FF822B003CBC73 /* ActantORB */,
+				102BF77A25FF822B003CBC73 /* Products */,
+				5BB5DCC865C0C42F3420F9AC /* Pods */,
+				DD0E75F9F97C55711DDEDA80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		102BF77A25FF822B003CBC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				102BF77925FF822B003CBC73 /* ActantORB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		102BF77B25FF822B003CBC73 /* ActantORB */ = {
+			isa = PBXGroup;
+			children = (
+				102BF78D25FF8AB0003CBC73 /* Native */,
+				102BF77C25FF822B003CBC73 /* ActantORBApp.swift */,
+				102BF77E25FF822B003CBC73 /* ContentView.swift */,
+				102BF78025FF822E003CBC73 /* Assets.xcassets */,
+				102BF78525FF822E003CBC73 /* Info.plist */,
+				102BF78225FF822E003CBC73 /* Preview Content */,
+			);
+			path = ActantORB;
+			sourceTree = "<group>";
+		};
+		102BF78225FF822E003CBC73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				102BF78325FF822E003CBC73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		102BF78D25FF8AB0003CBC73 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				102BF79125FF8DD6003CBC73 /* ActantORB-Bridging-Header.h */,
+				102BF79C25FF8DD7003CBC73 /* LibORBWrapper.h */,
+				102BF79B25FF8DD7003CBC73 /* LibORBWrapper.mm */,
+				102BF79225FF8DD7003CBC73 /* liborb.h */,
+				102BF79625FF8DD7003CBC73 /* liborb.cpp */,
+				102BF79725FF8DD7003CBC73 /* ORBextractor.cc */,
+				102BF79E25FF8DD7003CBC73 /* ORBextractor.h */,
+				102BF79825FF8DD7003CBC73 /* LibORBWrapperOriginal.h */,
+				102BF79525FF8DD7003CBC73 /* LibORBWrapperOriginal.mm */,
+				102BF79325FF8DD7003CBC73 /* liborb_original.h */,
+				102BF79D25FF8DD7003CBC73 /* liborb_original.cpp */,
+				102BF79925FF8DD7003CBC73 /* ORBextractorOriginal.cc */,
+				102BF79425FF8DD7003CBC73 /* ORBextractorOriginal.h */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		5BB5DCC865C0C42F3420F9AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8251E604CDE95F37B9390C /* Pods-ActantORB.debug.xcconfig */,
+				387599E85404D6E4AAE18AB6 /* Pods-ActantORB.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		DD0E75F9F97C55711DDEDA80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3309EE8F7B42608329E0A9 /* Pods_ActantORB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		102BF77825FF822B003CBC73 /* ActantORB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102BF78825FF822E003CBC73 /* Build configuration list for PBXNativeTarget "ActantORB" */;
+			buildPhases = (
+				CAEE5FB72FE157931A0E45B1 /* [CP] Check Pods Manifest.lock */,
+				102BF77525FF822B003CBC73 /* Sources */,
+				102BF77625FF822B003CBC73 /* Frameworks */,
+				102BF77725FF822B003CBC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActantORB;
+			productName = ActantORB;
+			productReference = 102BF77925FF822B003CBC73 /* ActantORB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		102BF77125FF822B003CBC73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					102BF77825FF822B003CBC73 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 102BF77425FF822B003CBC73 /* Build configuration list for PBXProject "ActantORB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 102BF77025FF822B003CBC73;
+			productRefGroup = 102BF77A25FF822B003CBC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102BF77825FF822B003CBC73 /* ActantORB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102BF77725FF822B003CBC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102BF78425FF822E003CBC73 /* Preview Assets.xcassets in Resources */,
+				102BF78125FF822E003CBC73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAEE5FB72FE157931A0E45B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActantORB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102BF77525FF822B003CBC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102BF79F25FF8DD7003CBC73 /* LibORBWrapperOriginal.mm in Sources */,
+				102BF7A325FF8DD7003CBC73 /* LibORBWrapper.mm in Sources */,
+				102BF7A425FF8DD7003CBC73 /* liborb_original.cpp in Sources */,
+				102BF7A225FF8DD7003CBC73 /* ORBextractorOriginal.cc in Sources */,
+				102BF7A025FF8DD7003CBC73 /* liborb.cpp in Sources */,
+				102BF7A125FF8DD7003CBC73 /* ORBextractor.cc in Sources */,
+				102BF77F25FF822B003CBC73 /* ContentView.swift in Sources */,
+				102BF77D25FF822B003CBC73 /* ActantORBApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		102BF78625FF822E003CBC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		102BF78725FF822E003CBC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		102BF78925FF822E003CBC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8251E604CDE95F37B9390C /* Pods-ActantORB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActantORB/Preview Content\"";
+				DEVELOPMENT_TEAM = 99496FTLM8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActantORB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.smuravev.ActantORB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ActantORB/Native/ActantORB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		102BF78A25FF822E003CBC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387599E85404D6E4AAE18AB6 /* Pods-ActantORB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ActantORB/Preview Content\"";
+				DEVELOPMENT_TEAM = 99496FTLM8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ActantORB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.smuravev.ActantORB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ActantORB/Native/ActantORB-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102BF77425FF822B003CBC73 /* Build configuration list for PBXProject "ActantORB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102BF78625FF822E003CBC73 /* Debug */,
+				102BF78725FF822E003CBC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102BF78825FF822E003CBC73 /* Build configuration list for PBXNativeTarget "ActantORB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102BF78925FF822E003CBC73 /* Debug */,
+				102BF78A25FF822E003CBC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 102BF77125FF822B003CBC73 /* Project object */;
+}
